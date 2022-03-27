@@ -9,7 +9,7 @@ function addHover(){
         t.style.color = hoverColors[Math.round(Math.random()*hoverColors.length)]
     })
     t.addEventListener('mouseout',()=>{
-        t.style.color = 'Black'
+        t.style.color = 'White'
     })
 }
 
